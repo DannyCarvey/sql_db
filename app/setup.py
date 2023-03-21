@@ -8,7 +8,7 @@ def get_spell(page):
     stock = BeautifulSoup(page.content, 'html.parser')
     name = stock.find('div', {'class': 'page-title page-header'})
     info = stock.find(id='page-content')
-    spinfo = info.find_all('p')
+    spinfo = info.find_all(['p', 'li'])
     pierogi.append(name.text)
     for spin in spinfo:
         pierogi.append(spin.text)
