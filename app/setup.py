@@ -10,6 +10,7 @@ def get_spell(page):
     info = stock.find(id='page-content')
     spinfo = info.find_all(['p', 'li'])
     pierogi.append(name.text)
+    # TODO Fix issue with the <div class="collapsible-block"> exception from "Healing Elixir" Spell
     for spin in spinfo:
         pierogi.append(spin.text)
     pierogi.append('\n')
