@@ -382,10 +382,6 @@ Hail of ThornsSource: Player's Handbook1st-level conjurationCasting Time: 1 bonu
 Range: Self
 Components: V
 Duration: Concentration, up to 1 minuteThe next time you hit a creature with a ranged weapon attack before the spell ends, this spell creates a rain of thorns that sprouts from your ranged weapon or ammunition. In addition to the normal effect of the attack, the target of the attack and each creature within 5 feet of it must make a Dexterity saving throw. A creature takes 1d10 piercing damage on a failed save, or half as much damage on a successful one.At Higher Levels. If you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st (to a maximum of 6d10).Spell Lists. Ranger
-Healing Elixir (UA)Source: Unearthed Arcana 36 - Starter Spells1st-level conjurationCasting Time: 1 minute
-Range: Self
-Components: V, S, M (alchemist’s supplies)
-Duration: 24 hoursYou create a healing elixir in a simple vial that appears in your hand. The elixir retains its potency for the duration or until it’s consumed, at which point the vial vanishes.As an action, a creature can drink the elixir or administer it to another creature. The drinker regains 2d4 + 2 hit points.Spell Lists. Warlock, Wizard
 Healing WordSource: Player's Handbook1st-level evocationCasting Time: 1 bonus action
 Range: 60 feet
 Components: V

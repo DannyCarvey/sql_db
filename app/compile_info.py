@@ -3,27 +3,33 @@ import re
 
 
 def reggy():
-    with open('0spells.txt', encoding='utf-8') as f:
+    with open('spell_data.txt', encoding='utf-8') as f:
         pages = f.readlines()
-        print(len(pages))
 
     class_patterns = "Artificer|Bard|Cleric|Druid|Paladin|Ranger|Sorcerer|Warlock|Wizard|\(Optional\)"
     lines = []
     big_list = []
 
+    print('Beginning data compilation now!')
     for page in pages:
         lines.append(page)
         if re.findall('({})(\n)'.format(class_patterns), page):
-            # print(lines)
             spell = ''.join(lines)
-            # print(spell)
             lines = []
             big_list.append(read_spell(spell))
-            if big_list[-1] == 1:
-                print(big_list[-2])
-    print(len(big_list))
-    with open('0spells.json', 'w', encoding='utf-8') as f:
+        # if len(big_list) > 400:
+        #     pass
+        # elif len(big_list) == 400:
+        #     print('Data is 80% compiled!')
+        # elif len(big_list) == 300:
+        #     print('Data is 60% compiled!')
+        # elif len(big_list) == 200:
+        #     print('Data is 40% compiled!')
+        # elif len(big_list) == 100:
+        #     print('Data is 20% compiled!')
+    with open('spell_data.json', 'w', encoding='utf-8') as f:
         json.dump(big_list, f, indent=4)
+        # print('Data compilation complete!')
 
 
 def read_spell(spell):
@@ -36,13 +42,11 @@ def read_spell(spell):
         'Casting Time': "",
         'Range': "",
         'Components': "",
-        # 'materials': "",
         'Duration': "",
         'Concentration': False,
         'desc': "",
         'At Higher Levels': "",
         'Spell Lists': "",
-        # 'archetype': "",
     }
     school_patterns = r"abjuration|conjuration|divination|enchantment|evocation|illusion|necromancy|transmutation"
 
