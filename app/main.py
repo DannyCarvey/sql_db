@@ -4,12 +4,12 @@ from create_db import create_sql
 
 
 def create_spell_database():
-    # scrape()
-    print('Spell data has been collected!')
+    scrape()
+    print('Spell data collected.')
     reggy()
-    print('Spell data has been compiled!')
+    print('Spell data compiled.')
     create_sql()
-    print("Look! We made an sql database!")
+    print("Database file 'spell_data.sqlite3' created.")
 
 
 if __name__ == '__main__':

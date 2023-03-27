@@ -9,27 +9,14 @@ def reggy():
     class_patterns = "Artificer|Bard|Cleric|Druid|Paladin|Ranger|Sorcerer|Warlock|Wizard|\(Optional\)"
     lines = []
     big_list = []
-
-    print('Beginning data compilation now!')
     for page in pages:
         lines.append(page)
         if re.findall('({})(\n)'.format(class_patterns), page):
             spell = ''.join(lines)
             lines = []
             big_list.append(read_spell(spell))
-        # if len(big_list) > 400:
-        #     pass
-        # elif len(big_list) == 400:
-        #     print('Data is 80% compiled!')
-        # elif len(big_list) == 300:
-        #     print('Data is 60% compiled!')
-        # elif len(big_list) == 200:
-        #     print('Data is 40% compiled!')
-        # elif len(big_list) == 100:
-        #     print('Data is 20% compiled!')
     with open('spell_data.json', 'w', encoding='utf-8') as f:
         json.dump(big_list, f, indent=4)
-        # print('Data compilation complete!')
 
 
 def read_spell(spell):
@@ -62,14 +49,16 @@ def read_spell(spell):
             level = re.findall("\B(\d..-level)", spell)
             if level:
                 option.update({key: level[0]})
+        elif key == 'desc':
+            next
         # take care of all directly mentioned tags,
         elif re.findall(key, spell):
             liz = re.split('({}\W)'.format(key), spell)
             liz = re.split('\n', liz[-1])
-            # this a bit hideous, but we need to use the duration and higher level tags to isolate the description
-            # unfortunately that process only works if we do it before their final split from the next if statement
+            # We need to use the duration and higher level tags to isolate the description
+            # The easiest way to isolate the info we need is before the final split from the 'if source' statement
             if key == 'Duration':
-                desc = re.findall('\B([A-Z].*)', ''.join(liz), flags=re.DOTALL)
+                desc = re.findall('\B([A-Z].*)', ''.join(liz))
                 if re.findall('At Higher Levels', spell):
                     desc = re.split('At Higher Levels', desc[0])
                 else:

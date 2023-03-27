@@ -535,7 +535,7 @@
         "Components": "V, S",
         "Duration": "Instantaneous",
         "Concentration": false,
-        "desc": "Sacred Flame",
+        "desc": "Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take 1d8 radiant damage. The target gains no benefit from cover for this saving throw.",
         "At Higher Levels": "The spell\u2019s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)",
         "Spell Lists": "Cleric"
     },
@@ -1015,7 +1015,7 @@
         "Components": "V",
         "Duration": "1 round",
         "Concentration": false,
-        "desc": "Command",
+        "desc": "You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is undead, if it doesn\u2019t understand your language, or if your command is directly harmful to it. Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the DM determines how the target behaves. If the target can\u2019t follow your command, the spell ends.Approach. The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.Drop. The target drops whatever it is holding and then ends its turn.Flee. The target spends its turn moving away from you by the fastest available means.Grovel. The target falls prone and then ends its turn.Halt. The target doesn\u2019t move and takes no actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air.",
         "At Higher Levels": "When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.Spell Lists. Bard (Optional), Cleric, Paladin",
         "Spell Lists": "Bard (Optional), Cleric, Paladin"
     },
@@ -1285,7 +1285,7 @@
         "Components": "V, M (a small feather or piece of down)",
         "Duration": "1 minute",
         "Concentration": false,
-        "desc": "Feather Fall",
+        "desc": "Choose up to five falling creatures within range. A falling creature\u2019s rate of descent slows to 60 feet per round until the spell ends. If the creature lands before the spell ends, it takes no falling damage and can land on its feet, and the spell ends for that creature.",
         "At Higher Levels": "",
         "Spell Lists": "Artificer, Bard, Sorcerer, Wizard"
     },
@@ -2110,7 +2110,7 @@
         "Components": "V, S, M (a morsel of food)",
         "Duration": "24 hours",
         "Concentration": false,
-        "desc": "Animal Messenger",
+        "desc": "By means of this spell, you use an animal to deliver a message. Choose a Tiny beast you can see within range, such as a squirrel, a blue jay, or a bat. You specify a location, which you must have visited, and a recipient who matches a general description, such as \u201ca man or woman dressed in the uniform of the town guard\u201d or \u201ca red-haired dwarf wearing a pointed hat.\u201d You also speak a message of up to twenty-five words. The target beast travels for the duration of the spell toward the specified location, covering about 50 miles per 24 hours for a flying messenger, or 25 miles for other animals.When the messenger arrives, it delivers your message to the creature that you described, replicating the sound of your voice. The messenger speaks only to a creature matching the description you gave. If the messenger doesn\u2019t reach its destination before the spell ends, the message is lost, and the beast makes its way back to where you cast this spell.",
         "At Higher Levels": "If you cast this spell using a spell slot of 3rd level or higher, the duration of the spell increases by 48 hours for each slot level above 2nd.Spell Lists. Bard, Druid, Ranger",
         "Spell Lists": "Bard, Druid, Ranger"
     },
@@ -2365,7 +2365,7 @@
         "Components": "V, S, M (a copper piece)",
         "Duration": "Concentration, up to 1 minute",
         "Concentration": true,
-        "desc": "Detect Thoughts",
+        "desc": "For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn\u2019t speak any language, the creature is unaffected.You initially learn the surface thoughts of the creature\u2014what is most on its mind in that moment. As an action, you can either shift your attention to another creature\u2019s thoughts or attempt to probe deeper into the same creature\u2019s mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that loom s large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature\u2019s thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.Questions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation.You can also use this spell to detect the presence of thinking creatures you can\u2019t see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can\u2019t detect a creature with an Intelligence of 3 or lower or one that doesn\u2019t speak any language.Once you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can\u2019t see it, but it must still be within range.",
         "At Higher Levels": "",
         "Spell Lists": "Bard, Sorcerer, Wizard"
     },
@@ -2425,7 +2425,7 @@
         "Components": "V",
         "Duration": "Concentration, up to 1 minute",
         "Concentration": true,
-        "desc": "Earthbind",
+        "desc": "Choose one creature you can see within range. Yellow strips of magical energy loop around the creature. The target must succeed on a Strength saving throw or its flying speed (if any) is reduced to 0 feet for the spell\u2019s duration. An airborne creature affected by this spell descends at 60 feet per round until it reaches the ground or the spell ends.",
         "At Higher Levels": "",
         "Spell Lists": "Druid, Sorcerer, Warlock, Wizard"
     },
@@ -3280,7 +3280,7 @@
         "Components": "V, M (a snake\u2019s tongue and either a bit of honeycomb or a drop of sweet oil)",
         "Duration": "Concentration, up to 8 hours",
         "Concentration": true,
-        "desc": "Suggestion",
+        "desc": "You suggest a course of activity (limited to a sentence or two) and magically influence a creature you can see within range that can hear and understand you. Creatures that can\u2019t be charmed are immune to this effect. The suggestion must be worded in such a manner as to make the course of action sound reasonable. Asking the creature to stab itself, throw itself onto a spear, immolate itself, or do some other obviously harmful act ends the spell.The target must make a Wisdom saving throw. On a failed save, it purses the course of action you described to the best of its ability. The suggested course of action can continue for the entire duration. If the suggested activity can be completed in a shorter time, the spell ends when the subject finishes what it was asked to do.You can also specify conditions that will trigger a special activity during the duration. For example, you might suggest that a knight give her warhorse to the first beggar she meets. If the condition isn\u2019t met before the spell expires, the activity isn\u2019t preformed.If you or any of your companions damage the target, the spell ends.",
         "At Higher Levels": "",
         "Spell Lists": "Bard, Sorcerer, Warlock, Wizard"
     },
@@ -3505,7 +3505,7 @@
         "Components": "V, S",
         "Duration": "Concentration, up to 1 minute",
         "Concentration": true,
-        "desc": "Bestow Curse",
+        "desc": "You touch a creature, and that creature must succeed on a Wisdom saving throw or become cursed for the duration of the spell. When you cast this spell, choose the nature of the curse from the following options:Choose one ability score. While cursed, the target has disadvantage on ability checks and saving throws made with that ability score.While cursed, the target has disadvantage on attack rolls against you.While cursed, the target must make a Wisdom saving throw at the start of each of its turns. If it fails, it wastes its action that turn doing nothing.While the target is cursed, your attacks and spells deal an extra 1d8 necrotic damage to the target.A remove curse spell ends this effect. At the DM's option, you may choose an alternative curse effect, but it should be no more powerful than those described above. The DM has final say on such a curse's effect.",
         "At Higher Levels": "If you cast this spell using a spell slot of 4th level or higher, the duration is concentration, up to 10 minutes. If you use a spell slot of 5th level or higher, the duration is 8 hours. If you use a spell slot of 7th level or higher, the duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th level or higher grants a duration that doesn't require concentration.Spell Lists. Bard, Cleric, Wizard",
         "Spell Lists": "Bard, Cleric, Wizard"
     },
@@ -4870,7 +4870,7 @@
         "Components": "V, S, M (a drop of water and a pinch of dust)",
         "Duration": "Concentration, up to 10 minutes",
         "Concentration": true,
-        "desc": "Control Water",
+        "desc": "Until the spell ends, you control any freestanding water inside an area you choose that is a cube up to 100 feet on a side. You can choose from any of the following effects when you cast this spell. As an action on your turn, you can repeat the same effect or choose a different one.Flood. You cause the water level of all standing water in the area to rise by as much as 20 feet. If the area includes a shore, the flooding water spills over onto dry land. If you choose an area in a large body of water, you instead create a 20-foot tall wave that travels from one side of the area to the other and then crashes down. Any Huge or smaller vehicles in the wave\u2019s path are carried with it to the other side. Any Huge or smaller vehicles struck by the wave have a 25 percent chance of capsizing. The water level remains elevated until the spell ends or you choose a different effect. If this effect produced a wave, the wave repeats on the start of your next turn while the flood effect lasts.Part Water. You cause water in the area to move apart and create a trench. The trench extends across the spell\u2019s area, and the separated water forms a wall to either side. The trench remains until the spell ends or you choose a different effect. The water then slowly fills in the trench over the course of the next round until the normal water level is restored.Redirect Flow. You cause flowing water in the area to move in a direction you choose, even if the water has to flow over obstacles, up walls, or in other unlikely directions. The water in the area moves as you direct it, but once it moves beyond the spell\u2019s area, it resumes its flow based on the terrain conditions. The water continues to move in the direction you chose until the spell ends or you choose a different effect.Whirlpool. This effect requires a body of water at least 50 feet square and 25 feet deep. You cause a whirlpool to form in the center of the area. The whirlpool forms a vortex that is 5 feet wide at the base, up to 50 feet wide at the top, and 25 feet tall. Any creature or object in the water and within 25 feet of the vortex is pulled 10 feet toward it. A creature can swim away from the vortex by making a Strength (Athletics) check against your spell save DC.When a creature enters the vortex for the first time on a turn or starts its turn there, it must make a Strength saving throw. On a failed save, the creature takes 2d8 bludgeoning damage and is caught in the vortex until the spell ends. On a successful save, the creature takes half damage, and isn\u2019t caught in the vortex. A creature caught in the vortex can use its action to try to swim away from the vortex as described above, but has disadvantage on the Strength (Athletics) check to do so.The first time each turn that an object enters the vortex, the object takes 2d8 bludgeoning damage, this damage occurs each round it remains in the vortex.",
         "At Higher Levels": "",
         "Spell Lists": "Cleric, Druid, Wizard"
     },
@@ -4900,7 +4900,7 @@
         "Components": "V",
         "Duration": "Instantaneous",
         "Concentration": false,
-        "desc": "Dimension Door",
+        "desc": "You teleport yourself from your current location to any other spot within range. You arrive at exactly the spot desired. It can be a place you can see, one you can visualize, or one you can describe by stating distance and direction, such as \"200 feet straight downward\" or \"upward to the northwest at a 45-degree angle, 300 feet\".You can bring along objects as long as their weight doesn\u2019t exceed what you can carry. You can also bring one willing creature of your size or smaller who is carrying gear up to its carrying capacity. The creature must be within 5 feet of you when you cast this spell.If you would arrive in a place already occupied by an object or a creature, you and any creature traveling with you each take 4d6 force damage, and the spell fails to teleport you.",
         "At Higher Levels": "",
         "Spell Lists": "Bard, Sorcerer, Warlock, Wizard"
     },
@@ -5200,7 +5200,7 @@
         "Components": "V, S, M (a bit of fur from a bloodhound)",
         "Duration": "Concentration, up to 1 hour",
         "Concentration": true,
-        "desc": "Locate Creature",
+        "desc": "Describe or name a creature that is familiar to you. You sense the direction to the creature\u2019s location, as long as that creature is within 1,000 feet of you. If the creature is moving, you know the direction of its movement.The spell can locate a specific creature known to you, or the nearest creature of a specific kind (such as a human or a unicorn), so long as you have seen such a creature up close \u2013 within 30 feet \u2013 at least once. If the creature you described or named is in a different form, such as being under the effects of a polymorph spell, this spell doesn\u2019t locate the creature.This spell can\u2019t locate a creature if running water at least 10 feet wide blocks a direct path between you and the creature.",
         "At Higher Levels": "",
         "Spell Lists": "Bard, Cleric, Druid, Paladin, Ranger, Wizard"
     },
@@ -5545,7 +5545,7 @@
         "Components": "V, S, M (a droplet of water)",
         "Duration": "Concentration, up to 1 minute",
         "Concentration": true,
-        "desc": "Watery Sphere",
+        "desc": "You conjure up a sphere of water with a 5-foot radius on a point you can see within range. The sphere can hover in the air, but no more than 10 feet off the ground. The sphere remains for the spell\u2019s duration.Any creature in the sphere\u2019s space must make a Strength saving throw. On a successful save, a creature is ejected from that space to the nearest unoccupied space outside it. A Huge or larger creature succeeds on the saving throw automatically. On a failed save, a creature is restrained by the sphere and is engulfed by the water. At the end of each of its turns, a restrained target can repeat the saving throw.The sphere can restrain a maximum of four Medium or smaller creatures or one Large creature. If the sphere restrains a creature in excess of these numbers, a random creature that was already restrained by the sphere falls out of it and lands prone in a space within 5 feet of it.As an action, you can move the sphere up to 30 feet in a straight line. If it moves over a pit, cliff, or other drop, it safely descends until it is hovering 10 feet over ground. Any creature restrained by the sphere moves with it. You can ram the sphere into creatures, forcing them to make the saving throw, but no more than once per turn.When the spell ends, the sphere falls to the ground and extinguishes all normal flames within 30 feet of it. Any creature restrained by the sphere is knocked prone in the space where it falls.",
         "At Higher Levels": "",
         "Spell Lists": "Druid, Sorcerer, Wizard"
     },
@@ -6145,7 +6145,7 @@
         "Components": "V, S, M (incense worth at least 250 gp, which the spell consumes, and four ivory strips worth at least 50 gp each)",
         "Duration": "Instantaneous",
         "Concentration": false,
-        "desc": "Legend Lore",
+        "desc": "Name or describe a person, place, or object. The spell brings to your mind a brief summary of the significant lore about the thing you named. The lore might consist of current tales, forgotten stories, or even secret lore that has never been widely known. If the thing you named isn\u2019t of legendary importance, you gain no information. The more information you already have about the thing, the more precise and detailed the information you receive is.The information you learn is accurate but might be couched in figurative language. For example, if you have a mysterious magic axe on hand, the spell might yield this information: Woe to the evildoer whose hand touches the axe, for even the haft slices the hand of the evil ones. Only a true Child of Stone, lover and beloved of Moradin, may awaken the true powers of the axe, and only with the sacred word Rudnogg on the lips.",
         "At Higher Levels": "",
         "Spell Lists": "Bard, Cleric, Wizard"
     },
@@ -6205,7 +6205,7 @@
         "Components": "V, S",
         "Duration": "Concentration, up to 1 minute",
         "Concentration": true,
-        "desc": "Modify Memory",
+        "desc": "You attempt to reshape another creature\u2019s memories. One creature that you can see must make a Wisdom saving throw. If you are fighting the creature, it has advantage on the saving throw. On a failed save, the target becomes charmed by you for the duration. The charmed target is incapacitated and unaware of its surroundings, though it can still hear you. If it takes any damage or is targeted by another spell, this spell ends, and none of the target\u2019s memories are modified.While this charm lasts, you can affect the target\u2019s memory of an event that it experienced within the last 24 hours and that lasted no more than 10 minutes. You can permanently eliminate all memory of the event, allow the target to recall the event with perfect clarity and exacting detail, change its memory of the details of the event, or create a memory of some other event.You must speak to the target to describe how its memories are affected, and it must be able to understand your language for the modified memories to take root. Its mind fills in any gaps in the details of your description. If the spell ends before you have finished describing the modified memories, the creature\u2019s memory isn\u2019t altered. Otherwise, the modified memories take hold when the spell ends.A modified memory doesn\u2019t necessarily affect how a creature behaves, particularly if the memory contradicts the creature\u2019s natural inclinations, alignment, or beliefs. An illogical modified memory, such as implanting a memory of how much the creature enjoyed dousing itself in acid, is dismissed, perhaps as a bad dream. The DM might deem a modified memory too nonsensical to affect a creature in a significant manner.A Remove Curse or Greater Restoration spell cast on the target restores the creature\u2019s true memory.",
         "At Higher Levels": "If you cast this spell using a spell slot of 6th level or higher, you can alter the target\u2019s memories of an event that took place up to 7 days ago (6th level), 30 days ago (7th level), 1 year ago (8th level), or any time in the creature\u2019s past (9th level)",
         "Spell Lists": "Bard, Wizard"
     },
@@ -6685,7 +6685,7 @@
         "Components": "V, S, M (a statuette of yourself carved from ivory and decorated with gems worth at least 1,500 gp)",
         "Duration": "10 days",
         "Concentration": false,
-        "desc": "Contingency",
+        "desc": "Choose a spell of 5th level or lower that you can cast, that has a casting time of 1 action, and that can target you. You cast that spell\u2014called the contingent spell\u2014as part of casting contingency, expending spell slots for both, but the contingent spell doesn\u2019t come into effect. Instead, it takes effect when a certain circumstance occurs. You describe that circumstance when you cast the two spells. For example, a contingency cast with water breathing might stipulate that water breathing comes into effect when you are engulfed in water or a similar liquid.The contingent spell takes effect immediately after the circumstance is met for the first time, whether or not you want it to, and then contingency ends.The contingent spell takes effect only on you, even if it can normally target others. You can use only one contingency spell at a time. If you cast this spell again, the effect of another contingency spell on you ends. Also, contingency ends on you if its material component is ever not on your person.",
         "At Higher Levels": "",
         "Spell Lists": "Wizard"
     },
@@ -7030,7 +7030,7 @@
         "Components": "V, M (a snake\u2019s tongue and either a bit of honeycomb or a drop of sweet oil)",
         "Duration": "24 hours",
         "Concentration": false,
-        "desc": "Mass Suggestion",
+        "desc": "You suggest a course of activity (limited to a sentence or two) and magically influence up to twelve creatures of your choice that you can see within range and that can hear and understand you. Creatures that can\u2019t be charmed are immune to this effect. The suggestion must be worded in such a manner as to make the course of action sound reasonable. Asking the creature to stab itself, throw itself onto a spear, immolate itself, or do some other obviously harmful act automatically negates the effect of the spell.Each target must make a Wisdom saving throw. On a failed save, it pursues the course of action you described to the best of its ability. The suggested course of action can continue for the entire duration. If the suggested activity can be completed in a shorter time, the spell ends when the subject finishes what it was asked to do.You can also specify conditions that will trigger a special activity during the duration. For example, you might suggest that a group of soldiers give all their money to the first beggar they meet. If the condition isn\u2019t met before the spell ends, the activity isn\u2019t performed.If you or any of your companions damage a creature affected by this spell, the spell ends for that creature.",
         "At Higher Levels": "When you cast this spell using a 7th-level spell slot, the duration is 10 days. When you use an 8th-level spell slot, the duration is 30 days. When you use a 9th-level spell slot, the duration is a year and a day.Spell Lists. Bard, Sorcerer, Warlock, Wizard",
         "Spell Lists": "Bard, Sorcerer, Warlock, Wizard"
     },
@@ -7150,7 +7150,7 @@
         "Components": "V, S, M (a bit of fleece and jade dust worth at least 25 gp)",
         "Duration": "Until dispelled",
         "Concentration": false,
-        "desc": "Programmed Illusion",
+        "desc": "You create an illusion of an object, a creature, or some other visible phenomenon within range that activates when a specific condition occurs. The illusion is imperceptible until then. It must be no larger than a 30-foot cube, and you decide when you cast the spell how the illusion behaves and what sounds it makes. This scripted performance can last up to 5 minutes.When the condition you specify occurs, the illusion springs into existence and performs in the manner you described. Once the illusion finishes performing, it disappears and remains dormant for 10 minutes. After this time, the illusion can be activated again.The triggering condition can be as general or as detailed as you like, though it must be based on visual or audible conditions that occur within 30 feet of the area. For example, you could create an illusion of yourself to appear and warn off others who attempt to open a trapped door, or you could set the illusion to trigger only when a creature says the correct word or phrase.Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature.",
         "At Higher Levels": "",
         "Spell Lists": "Bard, Wizard"
     },
@@ -7195,7 +7195,7 @@
         "Components": "V, S, M (a tiny silver cage worth 100 gp)",
         "Duration": "8 hours",
         "Concentration": false,
-        "desc": "Soul Cage",
+        "desc": "This spell snatches the soul of a humanoid as it dies and traps it inside the tiny cage you use for the material component. A stolen soul remains inside the cage until the spell ends or until you destroy the cage, which ends the spell. While you have a soul inside the cage, you can exploit it in any of the ways described below. You can use a trapped soul up to six times. Once you exploit a soul for the sixth time, it is released, and the spell ends. While a soul is trapped, the dead humanoid it came from can\u2019t be revived.Steal Life. You can use a bonus action to drain vigor from the soul and regain 2d8 hit points.Query Soul. You ask the soul a question (no action required) and receive a brief telepathic answer, which you can understand regardless of the language used. The soul knows only what it knew in life, but it must answer you truthfully and to the best of its ability. The answer is no more than a sentence or two and might be cryptic.Borrow Experience. You can use a bonus action to bolster yourself with the soul\u2019s life experience, making your next attack roll, ability check, or saving throw with advantage. If you don\u2019t use this benefit before the start of your next turn, it is lost.Eyes of the Dead. You can use an action to name a place the humanoid saw in life, which creates an invisible sensor somewhere in that place if it is on the plane of existence you\u2019re currently on. The sensor remains for as long as you concentrate, up to 10 minutes (as if you were concentrating on a spell). You receive visual and auditory information from the sensor as if you were in its space using your senses.A creature that can see the sensor (such as one using see invisibility or truesight) sees a translucent image of the tormented humanoid whose soul you caged.",
         "At Higher Levels": "",
         "Spell Lists": "Warlock, Wizard"
     },
@@ -7345,7 +7345,7 @@
         "Components": "V, S, M (fire and holy water)",
         "Duration": "8 hours",
         "Concentration": false,
-        "desc": "Wind Walk",
+        "desc": "You and up to ten willing creatures you can see within range assume a gaseous form for the duration, appearing as wisps of cloud. While in this cloud form, a creature has a flying speed of 300 feet and has resistance to damage from nonmagical weapons. The only actions a creature can take in this form are the Dash action or to revert to its normal form.Reverting takes 1 minute, during which time a creature is incapacitated and can\u2019t move. Until the spell ends, a creature can revert to cloud form, which also requires the 1-minute transformation.If a creature is in cloud form and flying when the effect ends, the creature descends 60 feet per round for 1 minute until it lands, which it does safely. If it can\u2019t land after 1 minute, the creature falls the remaining distance.",
         "At Higher Levels": "",
         "Spell Lists": "Druid"
     },
@@ -7765,7 +7765,7 @@
         "Components": "V",
         "Duration": "Instantaneous",
         "Concentration": false,
-        "desc": "Teleport",
+        "desc": "This spell instantly transports you and up to eight willing creatures of your choice that you can see within range, or a single object that you can see within range, to a destination you select. If you target an object, it must be able to fit entirely inside a 10-foot cube, and it can\u2019t be held or carried by an unwilling creature.The destination you choose must be known to you, and it must be on the same plane of existence as you. Your familiarity with the destination determines whether you arrive there successfully. The DM rolls d100 and consults the table.\"Permanent circle\" means a permanent Teleportation Circle whose sigil sequence you know.\"Associated object\" means that you possess an object taken from the desired destination within the last six months, such as a book from a wizard's library, bed linen from a royal suite, or a chunk of marble from a lich's secret tomb.\"Very familiar\" is a place you have been very often, a place you have carefully studied, or a place you can see when you cast the spell.\"Seen casually\" is someplace you have seen more than once but with which you aren't very familiar.\"Viewed once\" is a place you have seen once, possibly using magic.\"Description\" is a place whose location and appearance you know through someone else's description, perhaps from a map.\"False destination\" is a place that doesn't exist. Perhaps you tried to scry an enemy's sanctum but instead viewed an illusion, or you are attempting to teleport to a familiar location that no longer exists.On Target. You and your group (or the target object) appear where you want to.Off Target. You and your group (or the target object) appear a random distance away from the destination in a random direction. Distance off target is 1d10 x 1d10 percent of the distance that was to be traveled. For example, if you tried to travel 120 miles, landed off target, and rolled a 5 and 3 on the two d10s, then you would be off target by 15 percent, or 18 miles. The DM determines the direction off target randomly by rolling a d8 and designating 1 as north, 2 as northeast, 3 as east, and so on around the points of the compass. If you were teleporting to a coastal city and wound up 18 miles out at sea, you could be in trouble.Similar Area. You and your group (or the target object) wind up in a different area that's visually or thematically similar to the target area. If you are heading for your home laboratory, for example, you might wind up in another wizard's laboratory or in an alchemical supply shop that has many of the same tools and implements as your laboratory. Generally, you appear in the closest similar place, but since the spell has no range limit, you could conceivably wind up anywhere on the plane.Mishap. The spell's unpredictable magic results in a difficult journey. Each teleporting creature (or the target object) takes 3d10 force damage, and the DM rerolls on the table to see where you wind up (multiple mishaps can occur, dealing damage each time).",
         "At Higher Levels": "",
         "Spell Lists": "Bard, Sorcerer, Wizard"
     },
@@ -7870,7 +7870,7 @@
         "Components": "V, S, M (either a lump of alum soaked in vinegar for the antipathy effect or a drop of honey for the sympathy effect)",
         "Duration": "10 days",
         "Concentration": false,
-        "desc": "Antipathy/Sympathy",
+        "desc": "This spell attracts or repels creatures of your choice. You target something within range, either a Huge or smaller object or creature or an area that is no larger than a 200-foot cube. Then specify a kind of intelligent creature, such as red dragons, goblins, or vampires. You invest the target with an aura that either attracts or repels the specified creatures for the duration. Choose antipathy or sympathy as the aura\u2019s effect.Antipathy. The enchantment causes creatures of the kind you designated to feel an intense urge to leave the area and avoid the target. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or become frightened. The creature remains frightened while it can see the target or is within 60 feet of it. While frightened by the target, the creature must use its movement to move to the nearest safe spot from which it can\u2019t see the target. If the creature moves more than 60 feet from the target and can\u2019t see it, the creature is no longer frightened, but the creature becomes frightened again if it regains sight of the target or moves within 60 feet of it.Sympathy. The enchantment causes the specified creatures to feel an intense urge to approach the target while within 60 feet of it or able to see it. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or use its movement on each of its turns to enter the area or move within reach of the target. When the creature has done so, it can\u2019t willingly move away from the target. If the target damages or otherwise harms an affected creature, the affected creature can make a Wisdom saving throw to end the effect, as described below.Ending the Effect. If an affected creature ends its turn while not within 60 feet of the target or able to see it, the creature makes a Wisdom saving throw. On a successful save, the creature is no longer affected by the target and recognizes the feeling of repugnance or attraction as magical. In addition, a creature affected by the spell is allowed another Wisdom saving throw every 24 hours while the spell persists. A creature that successfully saves against this effect is immune to it for 1 minute, after which time it can be affected again.",
         "At Higher Levels": "",
         "Spell Lists": "Bard (Optional), Druid, Wizard"
     },
@@ -8350,7 +8350,7 @@
         "Components": "V, S",
         "Duration": "10 minutes",
         "Concentration": false,
-        "desc": "Prismatic Wall",
+        "desc": "A shimmering, multicolored plane of light forms a vertical opaque wall \u2013\u00a0up to 90 feet long, 30 feet high, and 1 inch thick \u2013\u00a0centered on a point you can see within range. Alternatively, you can shape the wall into a sphere up to 30 feet in diameter centered on a point you choose within range. The wall remains in place for the duration. If you position the wall so that it passes through a space occupied by a creature, the spell fails, and your action and the spell slot are wasted.The wall sheds bright light out to a range of 100 feet and dim light for an additional 100 feet. You and creatures you designate at the time you cast the spell can pass through and remain near the wall without harm. If another creature that can see the wall moves to within 20 feet of it or starts its turn there, the creature must succeed on a Constitution saving throw or become blinded for 1 minute.The wall consists of seven layers, each with a different color. When a creature attempts to reach into or pass through the wall, it does so one layer at a time through all the wall\u2019s layers. As it passes or reaches through each layer, the creature must make a Dexterity saving throw or be affected by that layer\u2019s properties as described below.The wall can be destroyed, also one layer at a time, in order from red to violet, by means specific to each layer. Once a layer is destroyed, it remains so for the duration of the spell. An Antimagic Field has no effect on it.",
         "At Higher Levels": "",
         "Spell Lists": "Bard (Optional), Wizard"
     },
@@ -8500,7 +8500,7 @@
         "Components": "V",
         "Duration": "Instantaneous",
         "Concentration": false,
-        "desc": "Wish",
+        "desc": "Wish is the mightiest spell a mortal creature can cast. By simply speaking aloud, you can alter the very foundations of reality in accord with your desires.The basic use of this spell is to duplicate any other spell of 8th level or lower. You don\u2019t need to meet any requirements in that spell, including costly components. The spell simply takes effect.Alternatively, you can create one of the following effects of your choice:You create one object of up to 25,000 gp in value that isn\u2019t a magic item. The object can be no more than 300 feet in any dimension, and it appears in an unoccupied space you can see on the ground.You allow up to twenty creatures that you can see to regain all hit points, and you end all effects on them described in the greater restoration spell.You grant up to ten creatures that you can see resistance to a damage type you choose.You grant up to ten creatures you can see immunity to a single spell or other magical effect for 8 hours. For instance, you could make yourself and all your companions immune to a lich\u2019s life drain attack.You undo a single recent event by forcing a reroll of any roll made within the last round (including your last turn). Reality reshapes itself to accommodate the new result. For example, a wish spell could undo an opponent\u2019s successful save, a foe\u2019s critical hit, or a friend\u2019s failed save. You can force the reroll to be made with advantage or disadvantage, and you can choose whether to use the reroll or the original roll.You might be able to achieve something beyond the scope of the above examples. State your wish to the DM as precisely as possible. The DM has great latitude in ruling what occurs in such an instance; the greater the wish, the greater the likelihood that something goes wrong. This spell might simply fail, the effect you desire might only be partly achieved, or you might suffer some unforeseen consequence as a result of how you worded the wish. For example, wishing that a villain were dead might propel you forward in time to a period when that villain is no longer alive, effectively removing you from the game. Similarly, wishing for a legendary magic item or artifact might instantly transport you to the presence of the item\u2019s current owner.The stress of casting this spell to produce any effect other than duplicating another spell weakens you. After enduring that stress, each time you cast a spell until you finish a long rest, you take 1d10 necrotic damage per level of that spell. This damage can\u2019t be reduced or prevented in any way. In addition, your Strength drops to 3, if it isn\u2019t 3 or lower already, for 2d4 days. For each of those days that you spend resting and doing nothing more than light activity, your remaining recovery time decreases by 2 days. Finally, there is a 33 percent chance that you are unable to cast wish ever again if you suffer this stress.",
         "At Higher Levels": "",
         "Spell Lists": "Sorcerer, Wizard"
     }
